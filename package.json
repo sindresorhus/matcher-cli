@@ -1,0 +1,53 @@
+{
+	"name": "matcher-cli",
+	"version": "0.0.0",
+	"description": "Simple wildcard matching",
+	"license": "MIT",
+	"repository": "sindresorhus/matcher-cli",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"matcher": "cli.js"
+	},
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"matcher",
+		"matching",
+		"match",
+		"regex",
+		"regexp",
+		"regular",
+		"expression",
+		"wildcard",
+		"pattern",
+		"string",
+		"filter",
+		"glob",
+		"globber",
+		"globbing",
+		"minimatch"
+	],
+	"dependencies": {
+		"get-stdin": "^6.0.0",
+		"matcher": "^1.1.1",
+		"meow": "^5.0.0"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.10.0",
+		"xo": "*"
+	}
+}
