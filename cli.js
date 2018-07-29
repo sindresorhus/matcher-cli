@@ -8,6 +8,9 @@ const cli = meow(`
 	Usage
 	  $ <input> | matcher <pattern> […]
 
+	Options
+	  --case-sensitive  Case-sensitive matching
+
 	Example
 	  $ ls
 	  cli.js
