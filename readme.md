@@ -1,4 +1,4 @@
-# matcher-cli [![Build Status](https://travis-ci.com/sindresorhus/matcher-cli.svg?branch=master)](https://travis-ci.com/sindresorhus/matcher-cli)
+# matcher-cli
 
 > Simple [wildcard](https://en.wikipedia.org/wiki/Wildcard_character) matching
 
