@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const getStdin = require('get-stdin');
-const matcher = require('matcher');
+import process from 'node:process';
+import meow from 'meow';
+import getStdin from 'get-stdin';
+import {matcher} from 'matcher';
 
 const cli = meow(`
 	Usage
@@ -21,12 +21,13 @@ const cli = meow(`
 	  $ ls | matcher '*.js' '!test.js'
 	  cli.js
 `, {
+	importMeta: import.meta,
 	flags: {
 		caseSensitive: {
 			type: 'boolean',
-			default: false
-		}
-	}
+			default: false,
+		},
+	},
 });
 
 const {input, flags} = cli;

@@ -4,13 +4,11 @@
 
 Useful when you want to accept loose string input and regexes/globs are too convoluted.
 
-
 ## Install
 
+```sh
+npm install --global matcher-cli
 ```
-$ npm install --global matcher-cli
-```
-
 
 ## Usage
 
@@ -34,12 +32,6 @@ $ matcher --help
     cli.js
 ```
 
-
 ## Related
 
-- [matcher](https://github.com/sindresorhus/matcher) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
+- [matcher](https://github.com/sindresorhus/matcher) - API for this package

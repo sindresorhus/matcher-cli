@@ -6,7 +6,7 @@ const fixtureFiles = [
 	'license',
 	'package.json',
 	'readme.md',
-	'test.js'
+	'test.js',
 ].join('\n');
 
 test('main', async t => {
