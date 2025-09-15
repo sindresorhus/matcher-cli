@@ -15,7 +15,7 @@
 		"matcher": "./cli.js"
 	},
 	"engines": {
-		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+		"node": ">=20"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -44,12 +44,12 @@
 	],
 	"dependencies": {
 		"get-stdin": "^9.0.0",
-		"matcher": "^5.0.0",
-		"meow": "^10.1.1"
+		"matcher": "^6.0.0",
+		"meow": "^14.0.0"
 	},
 	"devDependencies": {
-		"ava": "^3.15.0",
-		"execa": "^5.1.1",
-		"xo": "^0.45.0"
+		"ava": "^6.4.1",
+		"execa": "^9.6.0",
+		"xo": "^1.2.2"
 	}
 }

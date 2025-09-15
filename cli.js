@@ -37,7 +37,7 @@ if (input.length === 0) {
 	process.exit(1);
 }
 
-(async () => {
-	const lines = (await getStdin()).split(/\r?\n/);
-	console.log(matcher(lines, input, flags).join('\n'));
-})();
+const stdin = await getStdin();
+const lines = stdin.split(/\r?\n/);
+
+console.log(matcher(lines, input, flags).join('\n'));
